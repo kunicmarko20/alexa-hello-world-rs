@@ -1,0 +1,13 @@
+[package]
+name = "alexa-hello-world-rs"
+version = "0.1.0"
+authors = ["Marko Kunic <kunicmarko20@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+alexa_sdk = "^0.1"
+lambda_runtime = "^0.1"
+
+[[bin]]
+name = "bootstrap"
+path = "src/main.rs"
